@@ -1,0 +1,36 @@
+[package]
+name = "py-hi-tension"
+description = "Basic but fast network communication between scientific applications"
+categories = ["network-programming", "science", "simulation"]
+version = "0.1.0"
+authors = ["gggto <47183108+gggto@users.noreply.github.com>"]
+repository = "https://github.com/gggto/py-hi-tension"
+license = "MIT"
+readme = "README.md"
+edition = "2018"
+
+[lib]
+name = "hi_tension"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.13.2", features = ["extension-module"] }
+numpy = "0.13.1"
+hi-tension = "0.1.0"
+
+[package.metadata.maturin]
+requires-dist = [
+    "numpy>=1.18.4",
+]
+classifier = [
+    "Programming Language :: Python :: 3",
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Rust",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+    "Topic :: System :: Networking",
+]
+requires-python = ">=3.6"
+project-url = { Repository = "https://github.com/gggto/py-hi-tension" }
