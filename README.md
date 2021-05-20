@@ -71,7 +71,7 @@ need:
 
 ### Building and installing
 
-To build and install `nytche`, run:
+To build and install `py-hi-tension`, run:
 ```
 pip install .
 ```
