@@ -19,7 +19,6 @@ numpy = "0.13.1"
 hi-tension = "0.1.0"
 
 [package.metadata.maturin]
-name = "hi-tension"
 requires-dist = [
     "numpy>=1.18.4",
 ]
