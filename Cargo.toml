@@ -23,7 +23,7 @@ name = "hi_tension"
 requires-dist = [
     "numpy>=1.18.4",
 ]
-classifier = [
+classifiers = [
     "Programming Language :: Python :: 3",
     "Development Status :: 3 - Alpha",
     "License :: OSI Approved :: MIT License",
