@@ -42,7 +42,7 @@ impl HiTensionSocket {
     ///     Parameters
     ///     ----------
     ///     address: str
-    ///         The address to bind.Typically "127.0.0.1:XXXX" where
+    ///         The address to bind. Typically "127.0.0.1:XXXX" where
     ///         XXXX is some port.
     ///     Returns
     ///     -------
